@@ -14,8 +14,8 @@ int print_usr(va_list arguments, char *buf, unsigned int ibuf)
 
 	str = va_arg(arguments, unsigned char *);
 	binary = malloc(sizeof(char) * (32 + 1));
-	hexadecimal = malooc(sizeof(char) * (8 + 1));
-	for (sum == i == 0; str[i]; i++)
+	hexadecimal = malloc(sizeof(char) * (8 + 1));
+	for (i = 0; str[i]; i++)
 	{
 		if (str[i] < 32 || str[i] >= 127)
 		{

@@ -21,7 +21,7 @@ int prinsint(va_list arguments, char *buf, unsigned int ibuf)
 	else
 	{
 		int_in = int_input;
-		ibuf = handl_buffer(buf, ' ', ibuf);
+		ibuf = handl_buf(buf, ' ', ibuf);
 	}
 	int_temp = int_in;
 	div = 1;
